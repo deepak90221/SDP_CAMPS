@@ -21,7 +21,7 @@ import Certificate from './components/Certificate';
 import Ship1 from './components/Ship1';
 import Jobstatus from './components/Jobstatus';
 import Recruit from './components/Recruit';
-import Crud from './components/Crud';
+
 function App() {
   return (
     <BrowserRouter>
@@ -47,7 +47,7 @@ function App() {
           <Route path="/Jobstatus" element={<Jobstatus />} />
           <Route path="/Recruit" element={<Recruit />} />
           <Route path="/Login" element={<Login />} />
-          <Route path="/Crud" element={<Crud/>} />
+          
 
 
 
